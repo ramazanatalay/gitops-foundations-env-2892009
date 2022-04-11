@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -exec sed -i .bak 's/ramazanatalay/'$1'/g' {} +
